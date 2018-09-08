@@ -17,7 +17,7 @@ The Environment & Softwares used
 The deployment document is uploaded (ShipShuk_NudityAlgorithm_Deployment.pdf). Section 9 is "Deploying NSFW API" is the section should be walked 
 thru for the implementation. 
 
-#OVERVIEW
+# OVERVIEW
 
 This deployment of NSFW described here explains nsfw implementation on windows 10. The docker image will running on ubuntu, the image files that will be checked located on windows side. This means we will be mounting drives to the container side. 
 Deployment of NSFW algorithm completed in a couple steps. These are 
@@ -30,7 +30,7 @@ In first step, the base application such as ubuntu, python, web & app servers an
 The final step will be running the docker with the volumes that will be used by the service. 
 Before starting to deployment steps there are a few parameters that needs to be set correctly that will be used for integration from windows to ubuntu side.
 
-#Once the implementation completed, you can test the service and the api as following
+# Once the implementation completed, you can test the service and the api as following
 
 - to test the services up and running
 http://127.0.0.1:9090/
