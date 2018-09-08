@@ -30,5 +30,11 @@ In first step, the base application such as ubuntu, python, web & app servers an
 The final step will be running the docker with the volumes that will be used by the service. 
 Before starting to deployment steps there are a few parameters that needs to be set correctly that will be used for integration from windows to ubuntu side.
 
+Once the implementation completed, you can test the service and the api as following
 
+- to test the services up and running
+http://127.0.0.1:9090/
+
+- to test the image through nsfw api
+http://127.0.0.1:9090/predict/test/08172018?f=lowneck1.jpg
 
