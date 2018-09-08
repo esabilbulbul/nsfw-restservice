@@ -18,6 +18,7 @@ The deployment document is uploaded (ShipShuk_NudityAlgorithm_Deployment.pdf). S
 thru for the implementation. 
 
 OVERVIEW
+
 This deployment of NSFW described here explains nsfw implementation on windows 10. The docker image will running on ubuntu, the image files that will be checked located on windows side. This means we will be mounting drives to the container side. 
 Deployment of NSFW algorithm completed in a couple steps. These are 
 -	Preparation of base image
