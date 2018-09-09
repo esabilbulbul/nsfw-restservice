@@ -1,7 +1,7 @@
 # nsfw-webservice
 NSFW (Not Suitable for Work) Web Service
 
-Author: Software Engineer @ [shipshuk](http://www.shipshuk.com)
+Author: Software Engineer @ [shipshuk](http://www.shipshuk.com) - [Online Retail Platform](http://www.shipshuk.com)
 
 This repository explains running Yahoo's nsfw algorithm to run as a rest service. The service will be running on docker. The service fed with some 
 dataset of 1000 pictures. The output of the rest service will be the rating between 0-1 about the picture if it is Not Suitable for Work content (adult/nudity content)
